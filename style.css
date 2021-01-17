@@ -1,23 +1,20 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #FFF;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
+    margin                 : 0;
+    padding                : 0;
+    background             : #FFF;
+    overflow-x             : hidden;
+    -webkit-font-smoothing : antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -705,7 +702,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 1.4em;
 }
 
@@ -721,9 +718,20 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
+.med-width-whitespace .comment{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.med-width-whitespace .name_client{
+    font-size: 0.5rem;
+}
 
 h1 {
     color: #333333!important;
+}
+.contactez-nous{
+    background-color:#280C55;
 }
 
 h4 {
@@ -734,9 +742,13 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
 .white {
     color: #FFFFFF!important;
+    font-size: 2rem;
+}
+.tittle_in_footer{
+    background-color: #280C55;
+    padding: 0;
 }
 
 .portfolio-thumb {
@@ -775,12 +787,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFE294!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #8A3378;
 }
 
 .btn-atomic-tangerine:hover {
