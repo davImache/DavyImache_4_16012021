@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /search
-Allow: /
+Allow: / 
 
-Site: http://la-chouette-agence.com/sitemap.xml
+Site: http://la-chouette-agence.fr/sitemap.xml
